@@ -16,7 +16,7 @@ class App extends React.Component {
     value_8 : "8",
     value_9 : "9",
     plus : "+",
-    minus : "-",
+    minus : "-",  
     multiple : "*",
     divide : "/",
     sum : "",
