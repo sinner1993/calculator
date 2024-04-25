@@ -1,13 +1,70 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  height: 500px;
+  width: 60%;
+  min-width: 60%;
+  margin: 50px auto;
+}
+.first__row{
+display: flex;
+width: 100%;
+}
+.second__row{
+  display: flex;
+}
+.third__row{
+  display:flex;
+}
+.four__fifth__row{
+  display:flex;
+}
+.wrapper__four__three{
+  display: block;
+}
+button{
+  width:25%;
+  padding: 10px;
+  border:0.25px solid black;
+  color: white;
+  background-color: grey;
+  font-size: 17px;
+}
+.AC__wrapper{
+  width: 50%;
+}
+.AC__wrapper > button{
+  width: 100%;
+}
+.wrapper__four__three{
+  width:75%;
+}
+.wrapper__four__three > div{
+  width:100%;
+  display: flex;
+}
+.wrapper__four__three > div > button{
+width: 100%;
+}
+.equal__wrapper{
+  width: 25%;
+}
+.equal__wrapper > button{
+  width: 100%;
+  height: 100%;
+}
+button:hover{
+  border:1px solid white;
+  outline: none;
+}
+.screen__wrapper{
+  background-color: black;
+  height: 60px;
+}
+.screen__wrapper > .upper__scren, .screen__wrapper > .lower__screen{
+  color:white;
 }
